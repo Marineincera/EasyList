@@ -13,7 +13,7 @@ class Homepage extends React.Component {
   }
 
 _openMenu(){
- 
+    this.props.navigation.navigate('Menu')
 }
 
 render(){
